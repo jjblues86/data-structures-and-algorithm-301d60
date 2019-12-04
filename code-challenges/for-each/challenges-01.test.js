@@ -170,7 +170,7 @@ const fizzbuzz = (arr) => {
     else if(element % 5 === 0){
       outcome += 'Buzz';
     }
-   
+
     output.push(outcome || element);
   })
   return output;

@@ -29,8 +29,8 @@ console.log(a) prints [1, 2, 3, 1]
 
 const appendFirstToLast = (arr) => {
   // Solution code here...
-  arr.splice(3,0, 'Yes');
-  // arr.push(arr[0]);
+  // arr.splice(3,0, 'Yes');
+  arr.push(arr[0]);
 };
 
 /* ------------------------------------------------------------------------------------------------
