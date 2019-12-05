@@ -91,18 +91,6 @@ console.log(a) prints [1, 2, 3, 4]
 const append = (arr1, arr2) => {
   // Solution code here...
   arr1.push(...arr2);
-
-  // arr1.push.apply(arr1, arr2); // apply allows me to append an array to another
-  // for(let i = 0; i < arr2.length; i++){
-  //   arr1.push(arr2[i]);
-
-  // }
-  // arr1.concat(arr2);
-  // console.log(arr1, arr2)
-  // const result = arr1.concat(arr2)
-  // console.log(result);
-  // return result;
-
 };
 
 /* ------------------------------------------------------------------------------------------------
