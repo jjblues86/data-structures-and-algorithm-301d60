@@ -26,7 +26,6 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 const filterStringsWithVowels = (arr) => {
   // Solution code here...
-  console.log('what', arr);
   const regex = /[aeiou]/g;
   return arr.filter(element => element.match(regex));
 };
@@ -178,6 +177,7 @@ const evenOddNumericValues = (arr) => {
   return result.map(num => {
     if(num % 2 === 0) return 'even';
     if(num % 2 === 1) return 'odd';
+
   })
 };
 
