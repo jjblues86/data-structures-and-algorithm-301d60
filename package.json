@@ -10,7 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  },
   "devDependencies": {
     "jest": "^24.9.0"
   }
