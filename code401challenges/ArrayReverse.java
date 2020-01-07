@@ -24,11 +24,3 @@ public class ArrayReverse {
   }
 }
 
- // int maxIndex = inputArray.length - 1;
-    // int halfLength = inputArray.length / 2;
-    // for(int i = 0; i < halfLength; i++){
-    //   int temp = inputArray[i];
-    //   inputArray[i] = inputArray[maxIndex - i];
-    //   inputArray[maxIndex - i] = temp;
-
-    // }
