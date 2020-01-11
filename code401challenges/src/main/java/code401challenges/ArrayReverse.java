@@ -21,7 +21,7 @@ public class ArrayReverse {
       arrayReverse[result] = inputArray[i];
       result = result + 1;
     }
-    // for now, to make sure that it compiles, here is a bad answer
+  
     return arrayReverse;
   }
 }
