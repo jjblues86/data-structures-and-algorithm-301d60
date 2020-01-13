@@ -3,13 +3,16 @@
  */
 package Data.LinkedList;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LinkedList {
 
     Node head; //this is the head of the list
 
 
     public void insert(Object newData) {
-        Node newNode = new Node(newData); //creating the new Node
+        Node newNode = new Node(newData, this.head); //creating the new Node
         newNode.next = head; //assigning the current head to the next node
         head = newNode; //change head to be the newNode added
     }
@@ -25,5 +28,18 @@ public class LinkedList {
         }
 
     return false;
+    }
+
+    public String toString(){
+
+        List<Object> nodeList = new ArrayList<>();
+        Node current = head;
+        while(current != null){
+            nodeList.add(current.data);
+            current = current.next;
+            System.out.println("this");
+        }
+        return String.valueOf(nodeList);
+
     }
 }
