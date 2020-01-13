@@ -14,9 +14,9 @@
   ![](../assets/LinkedList.jpg)
   
   ## API
-  insert(newData) - this method allows user to enter any value into the linkelist.
-  includes(data) - this method checks to see if a value is available or included in the linkelist
-  toString() - this searches the linked list and should return the a string of all the values in the linked list
+  - insert(newData) - this method allows user to enter any value into the linkelist.
+  - includes(data) - this method checks to see if a value is available or included in the linkelist
+  - toString() - this searches the linked list and should return the a string of all the values in the linked list
   
   
   
