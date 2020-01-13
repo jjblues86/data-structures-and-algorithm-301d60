@@ -9,7 +9,7 @@
   "{ a } -> { b } -> { c } -> NULL"
   
   ## AApproach & Efficiency
-  ![My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/Data-Structures/src/main/java/Data/LinkedList/LinkedList.java)
+  [My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/Data-Structures/src/main/java/Data/LinkedList/LinkedList.java)
   
   ![](../assets/LinkedList.jpg)
   
