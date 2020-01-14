@@ -42,4 +42,52 @@ public class LinkedList {
         return String.valueOf(nodeList);
 
     }
+
+    public void append(Object newData){
+        Node newNode = new Node(newData, this.head);
+
+        if(this.head == null){
+            this.head = new Node(newData, null);
+            return;
+        }
+        Node last = head;
+        while(last.next != null){
+            last = last.next;
+            last.next = newNode;
+        }
+    }
+
+    public void insertBefore(Object newData, Object value){
+        if(this.head == null){
+            this.head = new Node(newData, null);
+        }
+        Node current = head;
+        while(current != null){
+            if(current.next.newData == value){
+                current.next = new Node(value, current.next);
+                return;
+            }
+            current = current.next;
+        }
+
+    throw new IllegalArgumentException("Element does not exist");
+    }
+
+    public void insertAfter(Object newData, Object value){
+        if(this.head == null){
+            throw new IllegalArgumentException("Element does not exist");
+
+        }
+        Node newNode = new Node(newData, null);
+        Node current = head;
+        while(current != null){
+            if(current.newData == value){
+                current.next = new Node(value, current.next);
+                return;
+            }
+            current = current.next;
+        }
+        throw new IllegalArgumentException("Element does not exist");
+
+    }
 }

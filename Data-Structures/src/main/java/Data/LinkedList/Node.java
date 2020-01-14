@@ -1,6 +1,7 @@
 package Data.LinkedList;
 
 public class Node {
+    Object newData;
     Object data;
     Node next;
 
