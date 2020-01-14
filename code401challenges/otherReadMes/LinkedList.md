@@ -11,12 +11,19 @@
   ## AApproach & Efficiency
   [My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/Data-Structures/src/main/java/Data/LinkedList/LinkedList.java)
   
+  
   ![](../assets/LinkedList.jpg)
+  
+  ![](../assets/append:insertBefore:insertAfter.jpg)
   
   ## API
   - insert(newData) - this method allows user to enter any value into the linkelist.
   - includes(data) - this method checks to see if a value is available or included in the linkelist
   - toString() - this searches the linked list and should return the a string of all the values in the linked list
+  - append(value) - this method adds a newNode to the end of the linkedlist
+  - insertBefore(value, newVal) - this method should be adding a newNode before the targeted value in the linkelist
+  - insertAfter(value, newVal) - this method will add a newNode after the atrgeted value in the linkedlist
+  
   
   
   
