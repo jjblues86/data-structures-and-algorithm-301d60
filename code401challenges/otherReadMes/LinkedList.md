@@ -8,7 +8,7 @@
 - Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
   "{ a } -> { b } -> { c } -> NULL"
   
-  ## AApproach & Efficiency
+  ## Approach & Efficiency
   [My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/Data-Structures/src/main/java/Data/LinkedList/LinkedList.java)
   
   
