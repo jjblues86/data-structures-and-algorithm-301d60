@@ -16,6 +16,8 @@
   
   ![](../assets/append:insertBefore:insertAfter.jpg)
   
+  ![](../assets/kthFromEnd.jpg)
+  
   ## API
   - insert(newData) - this method allows user to enter any value into the linkelist.
   - includes(data) - this method checks to see if a value is available or included in the linkelist
@@ -23,6 +25,7 @@
   - append(value) - this method adds a newNode to the end of the linkedlist
   - insertBefore(value, newVal) - this method should be adding a newNode before the targeted value in the linkelist
   - insertAfter(value, newVal) - this method will add a newNode after the atrgeted value in the linkedlist
+  - kthFromEnd(k) - this method should traverse the linked list and finds if the target position is present in the linked list
   
   
   
