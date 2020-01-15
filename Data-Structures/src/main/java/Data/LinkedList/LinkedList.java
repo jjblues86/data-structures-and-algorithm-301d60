@@ -90,4 +90,26 @@ public class LinkedList {
         throw new IllegalArgumentException("Element does not exist");
 
     }
+
+    public Object kthFromEnd(int k){
+        if(this.head == null){
+            throw new NullPointerException("Linked list is empty");
+        }
+        Node current = head;
+        int len = 0;
+        while(current != null){
+            current = current.next;
+            len++;
+        }
+        if(len < k || k < 0){
+            throw new IllegalArgumentException("The kth value does not exist");
+        }
+        current = head;
+        for(int i = 1; i < len - k; i++){
+            current = current.next;
+        }
+        return current.next.data;
+    }
+
+
 }
