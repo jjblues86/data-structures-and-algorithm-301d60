@@ -61,5 +61,16 @@ public class linkedListTest {
         assertEquals("This should add a node after the targeted value of the list","HEAD -> 2 -> 4 -> 8 -> 6 -> null", list.toString());
 
     }
+    @Test public void testKthFromEnd(){
+        list.append(2);
+        list.append(4);
+        list.append(8);
+        assertEquals("This should return the value of the position 2 in the linked list", 2, list.kthFromEnd(2));
+    }
+    @Test (expected = IllegalArgumentException.class)
+    public void outOfBoundsKthValue(){
+        list.insert(7);
+        assertEquals("This position does not exist in the list", 7);
+    }
 
 }
