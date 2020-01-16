@@ -121,5 +121,40 @@ public class LinkedList {
         return current.next.data;
     }
 
+    public static LinkedList mergeList(LinkedList one, LinkedList two){
+//       if(one.head == null && two.head == null) {
+//           throw new IllegalArgumentException("Both lists are empty");
+//       }
+//       if(one.head == null){
+//           return two;
+//       }
+//       if(two.head == null){
+//           return one;
+//       }
+
+       Node firstList = one.head;
+       Node secondList = two.head;
+       Node firstNext;
+       Node secondNext;
+
+       //check to make sure that both lists are not null
+        while(firstList != null && secondList != null){
+            firstNext = firstList.next;
+            secondNext = secondList.next;
+
+            firstList.next = secondList;
+            if(firstNext == null){
+               firstNext = secondList.next.next;
+            } else {
+                secondList.next = firstNext;
+            }
+
+            firstList = firstNext;
+            secondList = secondNext;
+        }
+        return one;
+
+    }
+
 
 }
