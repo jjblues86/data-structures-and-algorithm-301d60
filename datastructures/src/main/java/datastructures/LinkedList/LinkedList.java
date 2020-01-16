@@ -144,7 +144,7 @@ public class LinkedList {
 
             firstList.next = secondList;
             if(firstNext == null){
-               firstNext = secondList.next.next;
+               firstNext = secondList.next;
             } else {
                 secondList.next = firstNext;
             }

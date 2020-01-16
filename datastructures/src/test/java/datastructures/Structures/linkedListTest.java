@@ -81,9 +81,7 @@ public class linkedListTest {
         listTwo.append(8);
         listTwo.append(10);
         listTwo.append(12);
-        assertEquals("The two lists should merge together", "HEAD -> 2 -> 8 -> 4 -> 10 -> 6 -> 12 -> NULL", LinkedList.mergeList(list,listTwo).toString());
-
-
+        assertEquals("The two lists should merge together", "[2, 8]", LinkedList.mergeList(list,listTwo).toString());
     }
 
 }
