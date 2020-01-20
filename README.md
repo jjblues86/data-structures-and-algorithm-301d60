@@ -8,3 +8,6 @@
 * [Day 4: Implementation: Singly Linked Lists](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/LinkedList.md)
 * [Day 5: k-th value from the end of a linked list](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/LinkedList.md)
 * [Day 6: Merge two linked lists](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/LinkedList.md)
+* [Day 7: Implementation: Stacks and Queues](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/StackQueues.md)
+
+
