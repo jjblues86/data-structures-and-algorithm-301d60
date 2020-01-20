@@ -20,7 +20,7 @@ public class Queue {
     //Define a method called peek
     public int peek(){
         if(isEmpty()){
-            throw new NullPointerException("Queue is Empty");//Constructs a NoSuchElementException with null as its error message string
+            throw new NullPointerException("QUeue is Empty");
         }
         return this.first.getData();
 
