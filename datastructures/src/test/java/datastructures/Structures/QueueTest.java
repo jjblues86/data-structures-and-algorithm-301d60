@@ -22,10 +22,10 @@ public class QueueTest {
     }
     @Test public void testDequeue(){
         testQueue.enqueue(2);
-        testQueue.enqueue(4);
-        testQueue.enqueue(6);
+//        testQueue.enqueue(4);
+//        testQueue.enqueue(6);
         testQueue.dequeue();
-        assertEquals("Can successfully dequeue out of a queue the expected value of 6", 6, testQueue.dequeue());
+        assertEquals("Can successfully dequeue out of a queue the expected value of 6", true, testQueue.isEmpty());
     }
     @Test public void testInstantiateEmptyQueue(){
         assertEquals("Can successfully instantiate an empty queue", null, testQueue.getFirst());

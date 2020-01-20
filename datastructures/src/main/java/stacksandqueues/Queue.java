@@ -20,7 +20,7 @@ public class Queue {
     //Define a method called peek
     public int peek(){
         if(isEmpty()){
-            throw new NullPointerException("QUeue is Empty");//Constructs a NoSuchElementException with null as its error message string
+            throw new NullPointerException("QUeue is Empty");
         }
         return this.first.getData();
 
@@ -28,23 +28,24 @@ public class Queue {
 
     //Can successfully enqueue into a queue
     public void enqueue(int data){
-        Node prevNode = back;
-        this.back = new Node(data, prevNode);
-        back.data = data;
-        back.next = null;
+        Node prevNode = first;
+        this.first = new Node(data, prevNode);
+        first.data = data;
+        first.next = prevNode;
         n++;
     }
 
     //Define a method called dequeue
     public int dequeue() {
-        if (this.first == null) {
-            throw new NullPointerException("Queue is empty");
-        } else {
+
+        if(this.first != null){
             Node prevNode = this.first;
             this.first = this.first.next;
             prevNode.next = null;
             n--;
             return prevNode.getData();
+        } else {
+            throw new NullPointerException("Queue is empty");
         }
     }
 
