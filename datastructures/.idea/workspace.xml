@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f17b9fd8-dde5-466b-9d9c-309e05bde21d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code401challenges/assets/mergeList.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/Structures/linkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges/otherReadMes/LinkedList.md" beforeDir="false" afterPath="$PROJECT_DIR$/../code401challenges/otherReadMes/LinkedList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +42,13 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,13 +72,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.linkedListTest.testMergeLists">
-    <configuration name="linkedListTest.outOfBoundsKthValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.QueueTest.testPopEmptyStack">
+    <configuration name="QueueTest.testDequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.linkedListTest.outOfBoundsKthValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testDequeue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -67,12 +93,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="linkedListTest.testInserAfter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.linkedListTest.testInserAfter&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testEnqueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -87,12 +113,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="linkedListTest.testInsertBefore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testInstantiateEmptyQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.linkedListTest.testInsertBefore&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testInstantiateEmptyQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +133,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="linkedListTest.testKthFromEnd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testPeekQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.linkedListTest.testKthFromEnd&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testPeekQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,12 +153,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="linkedListTest.testMergeLists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testPopEmptyStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.linkedListTest.testMergeLists&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testPopEmptyStack&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.linkedListTest.testMergeLists" />
-        <item itemvalue="Gradle.linkedListTest.outOfBoundsKthValue" />
-        <item itemvalue="Gradle.linkedListTest.testKthFromEnd" />
-        <item itemvalue="Gradle.linkedListTest.testInsertBefore" />
-        <item itemvalue="Gradle.linkedListTest.testInserAfter" />
+        <item itemvalue="Gradle.QueueTest.testPopEmptyStack" />
+        <item itemvalue="Gradle.QueueTest.testEnqueue" />
+        <item itemvalue="Gradle.QueueTest.testDequeue" />
+        <item itemvalue="Gradle.QueueTest.testInstantiateEmptyQueue" />
+        <item itemvalue="Gradle.QueueTest.testPeekQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -183,43 +209,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579194491728">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579546807105">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1579194247138" />
+    <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1579546767139" />
+    <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.814@0.23.1440.814" timestamp="1579546807105" />
     <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.821@0.23.1440.821" timestamp="1579194491728" />
     <state x="140" y="123" width="1200" height="583" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579156007096" />
-    <state x="553" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1579154615350">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="553" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1579548963399">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="553" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579548963399" />
     <state x="553" y="122" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579154615350" />
-    <state width="1398" height="348" key="GridCell.Tab.0.bottom" timestamp="1579194580738">
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1579552520096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579552520096" />
+    <state width="1398" height="348" key="GridCell.Tab.0.bottom" timestamp="1579552765471">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579159936630" />
     <state width="1398" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064902" />
-    <state width="1398" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579194580738" />
+    <state width="1398" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579552765471" />
     <state width="1358" height="154" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243453" />
-    <state width="1398" height="348" key="GridCell.Tab.0.center" timestamp="1579194580737">
+    <state width="1398" height="348" key="GridCell.Tab.0.center" timestamp="1579552765470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="348" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579159936628" />
     <state width="1398" height="348" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064900" />
-    <state width="1398" height="348" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579194580737" />
+    <state width="1398" height="348" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579552765470" />
     <state width="1358" height="154" key="GridCell.Tab.0.center/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
-    <state width="1398" height="348" key="GridCell.Tab.0.left" timestamp="1579194580736">
+    <state width="1398" height="348" key="GridCell.Tab.0.left" timestamp="1579552765469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="348" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579159936628" />
     <state width="1398" height="348" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064898" />
-    <state width="1398" height="348" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579194580736" />
+    <state width="1398" height="348" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579552765469" />
     <state width="1358" height="154" key="GridCell.Tab.0.left/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243451" />
-    <state width="1398" height="348" key="GridCell.Tab.0.right" timestamp="1579194580737">
+    <state width="1398" height="348" key="GridCell.Tab.0.right" timestamp="1579552765470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="348" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579159936629" />
     <state width="1398" height="348" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064902" />
-    <state width="1398" height="348" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579194580737" />
+    <state width="1398" height="348" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579552765470" />
     <state width="1358" height="154" key="GridCell.Tab.0.right/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
   </component>
 </project>

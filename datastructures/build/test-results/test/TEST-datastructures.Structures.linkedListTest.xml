@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="datastructures.Structures.linkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-16T17:04:37" hostname="38f9d3566dcc.ant.amazon.com" time="0.003">
-  <properties/>
-  <testcase name="testMergeLists" classname="datastructures.Structures.linkedListTest" time="0.003"/>
-  <system-out><![CDATA[this
-this
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
