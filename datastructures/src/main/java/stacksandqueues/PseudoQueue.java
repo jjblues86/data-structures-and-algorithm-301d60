@@ -35,6 +35,5 @@ public class PseudoQueue {
             }
         }
         return stack2.pop();
-
     }
 }
