@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f17b9fd8-dde5-466b-9d9c-309e05bde21d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/datastructures.Structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/datastructures.Structures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
@@ -33,13 +33,19 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,13 +72,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.PseudoQueueTest.testEnqueuePseudoQueue">
-    <configuration name="PseudoQueueTest.testDequeuePseudoQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.testDequeueFirstCat">
+    <configuration name="AnimalShelterTest.testDequeueDog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.PseudoQueueTest.testDequeuePseudoQueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.AnimalShelterTest.testDequeueDog&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -87,12 +98,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testEnqueuePseudoQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeueDogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.PseudoQueueTest.testEnqueuePseudoQueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.AnimalShelterTest.testDequeueDogs&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +118,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testSizePseudoQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeueFirstCat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.PseudoQueueTest.testSizePseudoQueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.AnimalShelterTest.testDequeueFirstCat&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testNotDogOrCat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testEnqueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.AnimalShelterTest.testNotDogOrCat&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QueueTest.testPopEmptyStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testWrongPref" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.QueueTest.testPopEmptyStack&quot;" />
+        <option name="scriptParameters" value="--tests &quot;datastructures.Structures.AnimalShelterTest.testWrongPref&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PseudoQueueTest.testEnqueuePseudoQueue" />
-        <item itemvalue="Gradle.PseudoQueueTest.testSizePseudoQueue" />
-        <item itemvalue="Gradle.PseudoQueueTest.testDequeuePseudoQueue" />
-        <item itemvalue="Gradle.QueueTest.testPopEmptyStack" />
-        <item itemvalue="Gradle.QueueTest.testEnqueue" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeueFirstCat" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeueDogs" />
+        <item itemvalue="Gradle.AnimalShelterTest.testNotDogOrCat" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeueDog" />
+        <item itemvalue="Gradle.AnimalShelterTest.testWrongPref" />
       </list>
     </recent_temporary>
   </component>
@@ -203,49 +214,91 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="140" y="95" width="1200" height="707" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579631726483">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="140" y="109" width="1200" height="642" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579679594536">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="140" y="95" width="1200" height="707" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1579631726483" />
     <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.814@0.23.1440.814" timestamp="1579546807105" />
+    <state x="140" y="109" width="1200" height="642" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679594536" />
     <state x="140" y="109" width="1200" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.821@0.23.1440.821" timestamp="1579194491728" />
     <state x="140" y="123" width="1200" height="583" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579156007096" />
-    <state x="553" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1579548963399">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="454" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579674339205">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="454" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579674339205" />
+    <state x="553" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1579674884264">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="553" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579548963399" />
+    <state x="553" y="121" key="#com.intellij.ide.util.MemberChooser/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579674884264" />
     <state x="553" y="122" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579154615350" />
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1579552520096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579552520096" />
-    <state width="1398" height="232" key="GridCell.Tab.0.bottom" timestamp="1579631726332">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="458" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579674819392">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="458" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579674819392" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1579716543689">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579589358000" />
     <state width="1398" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064902" />
     <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579631726332" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577514" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579716543689" />
     <state width="1358" height="154" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243453" />
-    <state width="1398" height="232" key="GridCell.Tab.0.center" timestamp="1579631726330">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1579716543687">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="232" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579589357998" />
     <state width="1398" height="348" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064900" />
     <state width="1398" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579631726330" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577513" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1579716543687" />
     <state width="1358" height="154" key="GridCell.Tab.0.center/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
-    <state width="1398" height="232" key="GridCell.Tab.0.left" timestamp="1579631726329">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1579716543686">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="232" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579589357997" />
     <state width="1398" height="348" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064898" />
     <state width="1398" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579631726329" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577513" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1579716543686" />
     <state width="1358" height="154" key="GridCell.Tab.0.left/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243451" />
-    <state width="1398" height="232" key="GridCell.Tab.0.right" timestamp="1579631726331">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1579716543688">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="232" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579589357999" />
     <state width="1398" height="348" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1579160064902" />
     <state width="1398" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579631726331" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577514" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1579716543688" />
     <state width="1358" height="154" key="GridCell.Tab.0.right/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1579716543691">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678375874" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579716543691" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1579716543689">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678375872" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1579716543689" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1579716543689">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678375872" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1579716543689" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1579716543690">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678375873" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1579716543690" />
+    <state x="427" y="55" key="refactoring.ChangeSignatureDialog" timestamp="1579678262208">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="427" y="55" key="refactoring.ChangeSignatureDialog/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678262208" />
   </component>
 </project>
