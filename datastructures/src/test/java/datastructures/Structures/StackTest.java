@@ -1,6 +1,7 @@
 package datastructures.Structures;
 
 
+import org.checkerframework.checker.units.qual.C;
 import org.junit.Before;
 import org.junit.Test;
 import stacksandqueues.Stack;
@@ -8,7 +9,7 @@ import stacksandqueues.Stack;
 import static org.junit.Assert.*;
 
 public class StackTest {
-    Stack testStack;
+    Stack<C> testStack;
 
     @Before
     public void start(){
