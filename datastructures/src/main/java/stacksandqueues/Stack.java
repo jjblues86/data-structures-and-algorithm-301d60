@@ -2,7 +2,7 @@ package stacksandqueues;
 
 import java.util.NoSuchElementException;
 
-public class Stack {
+public class Stack<C> {
     private Node top; //the top item in the stack
     private int n; //size of the stack
 
