@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class Tree<E> {
+public class Tree {
     Node root;
 
     public Tree() {
@@ -63,12 +63,11 @@ public class Tree<E> {
     }
 
     //in-order: left -> root -> right
-    public ArrayList<Integer> traverseInOrder(Node node){
+    public void traverseInOrder(Node node){
         if(node != null){
             traverseInOrder(node.left);
             System.out.println("node = " + node.value);
             traverseInOrder(node.right);
         }
-        return null;
     }
 }

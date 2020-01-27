@@ -16,7 +16,4 @@ public class Node {
         this.left = left;
         this.right = right;
     }
-
-    public Node(int i, Node node, Node node1, Node node2, Object o) {
-    }
 }
