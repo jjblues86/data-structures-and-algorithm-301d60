@@ -1,19 +1,23 @@
 package tree;
 
-public class Node {
-     int value;
+public class Node<E> {
+     E value;
      Node left;
      Node right;
 
-    public Node(int value) {
+    public Node(E value) {
         this.value = value;
         this.left = null;
         this.right = null;
     }
 
-    public Node(int value, Node left, Node right) {
+    public Node(E value, Node left, Node right) {
         this.value = value;
         this.left = left;
         this.right = right;
+    }
+
+    public E getValue(){
+        return this.value;
     }
 }
