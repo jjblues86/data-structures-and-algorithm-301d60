@@ -9,11 +9,11 @@ public class BinarySearchTree extends Tree {
 
     public void add(int value){
         if(root == null){
-            root = new Node(value);//setting the root to be the new value
+            root = new Node<>(value);//setting the root to be the new value
         } else {
             Node current = root;
             while(current != null){
-                if(value < current.value){
+                if(value < (int)current.value){
                     //Left
                     if(current.left == null){
                         current.left = new Node(value);
@@ -34,12 +34,12 @@ public class BinarySearchTree extends Tree {
         }
     }
 
-    public boolean contains(int key){
-        Node current = root;
+    public boolean contains(Node root, int key){
+        Node current = this.root;
         while(current != null){
-            if(current.value == key){
+            if((int)current.value == key){
                 return true;
-            } else if(current.value > key){
+            } else if((int)current.value > key){
                 current = current.left;
             } else {
                 current = current.right;
