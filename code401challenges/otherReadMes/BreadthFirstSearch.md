@@ -7,6 +7,7 @@
 - I Implemented an empty Queue where I will push nodes from the tree into and remove the top node and add the next node in level from the tree. Once I go through each node in every level of the tree I have completed the whole process
 
 ## API
+- breadthFirstSeacrh()
 
 [Breadth-first Traversal](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/datastructures/src/main/java/tree/Tree.java)
 
