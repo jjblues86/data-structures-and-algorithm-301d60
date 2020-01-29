@@ -14,6 +14,7 @@
 * [Day 10: Implement a Multi-bracket Validation.](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/MultiBracketValidation.md)
 * [Day 11: Implementation: Trees](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/Trees.md)
 * [Day 12: Implementation: fizzBuzzTree](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/fizzBuzzTree.md)
+* [Day 13: Breadth-first Traversal](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/BreadthFirstSearch.md)
 
 
 
