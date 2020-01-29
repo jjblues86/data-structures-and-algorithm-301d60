@@ -17,6 +17,10 @@ public class Node<E> {
         this.right = right;
     }
 
+    public Node(int i, Node node) {
+
+    }
+
     public E getValue(){
         return this.value;
     }
