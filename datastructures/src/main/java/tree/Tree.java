@@ -1,6 +1,8 @@
 package tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Tree<E> {
     public Node<E> root;
@@ -78,6 +80,27 @@ public class Tree<E> {
         }
     }
 
+    public ArrayList<E> breadthFirstTraversal(Node<E> root){
+        ArrayList<E> outcome = new ArrayList<>();
+        Queue<Node> newQ = (Queue<Node>) new stacksandqueues.Queue();
+        newQ.add(root);
+        while(!newQ.isEmpty()){
+            Node current = newQ.remove();
+            outcome.add((E) current.value);
+            if(current.left != null){
+                newQ.add(current.left);
+            }
+            if(current.right != null){
+                newQ.add(current.right);
+            }
+        }
+        return outcome;
+    }
+
+
+}
+
+
 
     //pre-order: root -> left -> right
 //    public void traversePreOrder(Node node){
@@ -105,4 +128,3 @@ public class Tree<E> {
 //            traverseInOrder(node.right);
 //        }
 //    }
-}

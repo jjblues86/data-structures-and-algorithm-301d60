@@ -12,10 +12,13 @@ import static org.junit.Assert.*;
 public class TreeTest {
     BinarySearchTree binarySearchTree;
     Tree tree;
+    Tree breadthTree;
 
     @Before
     public void start() {
         Tree tree = new Tree<>();
+        Node nodes = new Node(2, new Node(8, new Node(6, new Node(1, new Node(3, new Node(4, new Node(9), null))))));
+        breadthTree = new Tree(nodes);
     }
         @Test
         public void testEmptyTree ( ) {
@@ -64,17 +67,10 @@ public class TreeTest {
         assertTrue(binarySearchTree.contains(binarySearchTree.root, 6));
 
         }
+        @Test
+    public void testBreadthFirstSearch(){
+        ArrayList<Integer> output = new ArrayList<>(Arrays.asList(2,8,6,1,3,4,9));
+        assertEquals(output, breadthTree.breadthFirstTraversal(breadthTree.root));
+        }
 
     }
-
-//    @Test
-//    public void testBinaryTreeTraverseInorder(){
-//        //      7
-//        //  5      9
-//        //4   6  8
-//        Node root = new Node(7, new Node(5, new Node(4), new Node(6)), new Node(9), new Node(8), null);
-//        Tree tree = new Tree(root);
-//        tree.traverseInOrder(tree.root);
-//        assertEquals((int)tree.traverseInOrder(root.value));
-//        ArrayList<Integer> trees = new ArrayList<>(Arrays.asList(4,5,6,7,8,9));
-//        assertEquals(trees);
