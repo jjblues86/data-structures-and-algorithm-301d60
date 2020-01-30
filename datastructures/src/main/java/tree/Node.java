@@ -24,4 +24,8 @@ public class Node<E> {
     public E getValue(){
         return this.value;
     }
+
+    public int findMaxiMumValue() {
+        return 0;
+    }
 }
