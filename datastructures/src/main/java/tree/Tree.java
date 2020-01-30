@@ -97,6 +97,14 @@ public class Tree<E> {
         return outcome;
     }
 
+    public int findMaxiMumValue(){
+        if(root == null){
+            return Integer.MAX_VALUE;
+        } else {
+            return root.findMaxiMumValue();
+        }
+    }
+
 
 }
 

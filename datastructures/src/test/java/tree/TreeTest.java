@@ -72,5 +72,9 @@ public class TreeTest {
         ArrayList<Integer> output = new ArrayList<>(Arrays.asList(2,8,6,1,3,4,9));
         assertEquals(output, breadthTree.breadthFirstTraversal(breadthTree.root));
         }
+        @Test
+    public void testFindMaxValue(){
+        assertEquals(9, breadthTree.findMaxiMumValue());
+        }
 
     }
