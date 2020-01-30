@@ -15,7 +15,5 @@
 * [Day 11: Implementation: Trees](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/Trees.md)
 * [Day 12: Implementation: fizzBuzzTree](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/fizzBuzzTree.md)
 * [Day 13: Breadth-first Traversal](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/BreadthFirstSearch.md)
-
-
-
+* [Day 14: Find-Maximu-Value](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/FindMaximumValue.md)
 
