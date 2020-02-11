@@ -12,4 +12,16 @@ public class InsertionSortTest {
         assertArrayEquals(expected, InsertionSort.sortInsertion(intArray));
     }
 
+    @Test public void emptyInsertionSort(){
+        int[] intArray = new int[]{};
+        int[] expected = new int[]{};
+        assertArrayEquals(expected, InsertionSort.sortInsertion(intArray));
+    }
+
+    @Test public void negativeValuesInsertionSort(){
+        int[] intArray = new int[]{-25,-45,-5,-8,-15,-12};
+        int[] expected = new int[]{-45,-25,-15,-12,-8,-5};
+        assertArrayEquals(expected, InsertionSort.sortInsertion(intArray));
+    }
+
 }
