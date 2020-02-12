@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f17b9fd8-dde5-466b-9d9c-309e05bde21d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,6 +68,9 @@
       <recent name="" />
       <recent name="tree" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -87,7 +78,47 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionSortTest.setInsertionSort">
+  <component name="RunManager" selected="Gradle.MergeSortTest.testMergeSort">
+    <configuration name="InsertionSortTest.emptyInsertionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;InsertionSortTest.emptyInsertionSort&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InsertionSortTest.negativeValuesInsertionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;InsertionSortTest.negativeValuesInsertionSort&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="InsertionSortTest.setInsertionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -108,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testBinarySearchTreeIsEmpty_withNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest.testMergeSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testBinarySearchTreeIsEmpty_withNodes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MergeSortTest.testMergeSort&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,53 +179,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testFindMaxValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testFindMaxValue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TreeTest.testInsertBinarySearchTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testInsertBinarySearchTree&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeSortTest.testMergeSort" />
+        <item itemvalue="Gradle.InsertionSortTest.negativeValuesInsertionSort" />
+        <item itemvalue="Gradle.InsertionSortTest.emptyInsertionSort" />
         <item itemvalue="Gradle.InsertionSortTest.setInsertionSort" />
         <item itemvalue="Gradle.TreeTest.testBinaryTreeTraverseInorder" />
-        <item itemvalue="Gradle.TreeTest.testBinarySearchTreeIsEmpty_withNodes" />
-        <item itemvalue="Gradle.TreeTest.testInsertBinarySearchTree" />
-        <item itemvalue="Gradle.TreeTest.testFindMaxValue" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +240,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579552520096" />
+    <state x="419" y="295" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581489279656">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="419" y="295" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1581489279656" />
     <state x="458" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579674819392">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -257,54 +252,62 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580153443366" />
-    <state width="939" height="194" key="GridCell.Tab.0.bottom" timestamp="1581402813944">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="939" height="194" key="GridCell.Tab.0.bottom" timestamp="1581464367921">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580282132185" />
     <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1580195036339" />
     <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580161368611" />
+    <state width="939" height="194" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581464367921" />
     <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1579812459110" />
     <state width="939" height="194" key="GridCell.Tab.0.bottom/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1580367077960" />
     <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577514" />
     <state width="939" height="194" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1581402813944" />
     <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579716543689" />
     <state width="1358" height="154" key="GridCell.Tab.0.bottom/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243453" />
-    <state width="939" height="194" key="GridCell.Tab.0.center" timestamp="1581402813943">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="939" height="194" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1581454386601" />
+    <state width="939" height="194" key="GridCell.Tab.0.center" timestamp="1581464367920">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580282132182" />
     <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1580195036337" />
     <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580161368609" />
+    <state width="939" height="194" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581464367920" />
     <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1579812459109" />
     <state width="939" height="194" key="GridCell.Tab.0.center/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1580367077959" />
     <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577513" />
     <state width="939" height="194" key="GridCell.Tab.0.center/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1581402813943" />
     <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1579716543687" />
     <state width="1358" height="154" key="GridCell.Tab.0.center/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
-    <state width="939" height="194" key="GridCell.Tab.0.left" timestamp="1581402813943">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="939" height="194" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1581454386600" />
+    <state width="939" height="194" key="GridCell.Tab.0.left" timestamp="1581464367916">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580282132180" />
     <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1580195036336" />
     <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580161368608" />
+    <state width="939" height="194" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581464367916" />
     <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1579812459108" />
     <state width="939" height="194" key="GridCell.Tab.0.left/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1580367077958" />
     <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577513" />
     <state width="939" height="194" key="GridCell.Tab.0.left/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1581402813943" />
     <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1579716543686" />
     <state width="1358" height="154" key="GridCell.Tab.0.left/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243451" />
-    <state width="939" height="194" key="GridCell.Tab.0.right" timestamp="1581402813943">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="939" height="194" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1581454386600" />
+    <state width="939" height="194" key="GridCell.Tab.0.right" timestamp="1581464367920">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580282132183" />
     <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1580195036338" />
     <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580161368609" />
+    <state width="939" height="194" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581464367920" />
     <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1579812459109" />
     <state width="939" height="194" key="GridCell.Tab.0.right/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1580367077960" />
     <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579679577514" />
     <state width="939" height="194" key="GridCell.Tab.0.right/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1581402813943" />
     <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1579716543688" />
     <state width="1358" height="154" key="GridCell.Tab.0.right/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1579157243452" />
+    <state width="939" height="194" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1581454386601" />
     <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1579716543691">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -325,16 +328,21 @@
     </state>
     <state width="1398" height="260" key="GridCell.Tab.1.right/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678375873" />
     <state width="1398" height="260" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1579716543690" />
+    <state x="323" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1581483861610">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="323" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1581483861610" />
     <state x="483" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581400456308">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="483" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580147505745" />
     <state x="483" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1581400456308" />
-    <state x="427" y="35" key="refactoring.ChangeSignatureDialog" timestamp="1580151691825">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="427" y="55" key="refactoring.ChangeSignatureDialog" timestamp="1581491716265">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="427" y="35" key="refactoring.ChangeSignatureDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580109395783" />
     <state x="427" y="35" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151691825" />
+    <state x="427" y="55" key="refactoring.ChangeSignatureDialog/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1581491716265" />
     <state x="427" y="55" key="refactoring.ChangeSignatureDialog/0.23.1440.816/1440.23.1920.1057@0.23.1440.816" timestamp="1579678262208" />
   </component>
 </project>
