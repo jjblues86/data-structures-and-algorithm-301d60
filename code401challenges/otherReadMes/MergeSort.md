@@ -12,7 +12,7 @@
 - O(logn2) base 2
 
 ## Solution
-[My Code]()
+[My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/datastructures/src/main/java/MergeSort.java)
 
 ![](../assets/MergeSort.jpg)
 
