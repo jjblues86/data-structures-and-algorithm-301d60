@@ -8,6 +8,6 @@ Implement Insertion Sort
 - O(n^2) time complexity which is quadratic
 ## Solution
 
-[My Code]()
+[My Code](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/datastructures/src/main/java/InsertionSort.java)
 
 ![](../assets/InsertionSort.jpg)
