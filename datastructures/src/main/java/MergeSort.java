@@ -32,5 +32,19 @@ public class MergeSort {
 
     }
 
+//
+//    public static void merging(int[] array){
+//        int number = array.length;
+////        int[] temp = new int[number];
+//        mergeSort(array, 0, number);
+//    }
+
+//    private static int[] merge(int[] array, int i, int length) {
+//        return merging(array);
+//    }
+
+//    private static int[] merge(int[] arr, int i, int length) {
+//    }
+
 }
 
