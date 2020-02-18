@@ -1,7 +1,7 @@
 ## Implementation of MergeSort
 
 ## Challenge Description
--Merge sort is a divide and conquer algorithm
+- Merge sort is a divide and conquer algorithm
 - There are two phases involved: splitting and merging
 - No new arrays are created
 - Splitting phase leads to faster sorting during merging
