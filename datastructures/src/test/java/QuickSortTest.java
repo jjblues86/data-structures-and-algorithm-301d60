@@ -10,6 +10,6 @@ public class QuickSortTest {
     public void testQuikSort(){
         int[] intArray = new int[]{};
         int[] expected = new int[]{};
-//        assertArrayEquals(expected, QuickSort.quickSort(intArray));
+//        assertArrayEquals(expected, QuickSort.quickSort(intArray, 0, intArray.length));
     }
 }

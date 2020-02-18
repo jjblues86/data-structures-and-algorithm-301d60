@@ -1,6 +1,6 @@
 public class MergeSort {
 
-    private static int[] mergeSort(int[] array, int start, int end){
+    public static int[] mergeSort(int[] array, int start, int end){
 
         if(end - start < 2){
 //            return;
@@ -14,7 +14,7 @@ public class MergeSort {
         return array;
     }
 
-    private static int[] merge(int[] array, int start,int mid, int end){
+    public static int[] merge(int[] array, int start,int mid, int end){
 
         if(array[mid - 1] <= array[mid]) {
 //            return;
@@ -32,12 +32,12 @@ public class MergeSort {
 
     }
 
-
-    public static void merging(int[] array){
-        int number = array.length;
-//        int[] temp = new int[number];
-        mergeSort(array, 0, number);
-    }
+//
+//    public static void merging(int[] array){
+//        int number = array.length;
+////        int[] temp = new int[number];
+//        mergeSort(array, 0, number);
+//    }
 
 //    private static int[] merge(int[] array, int i, int length) {
 //        return merging(array);
