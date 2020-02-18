@@ -18,5 +18,6 @@
 * [Day 14: Find-Maximum-Value](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/FindMaximumValue.md)
 * [Day 15: Implement Insertion Sort](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/BLOG.md)
 * [Day 16: Implement Merge Sort](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/MergeSort.md)
+* [Day 17: Implement Quick Sort](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/QuickSort.md)
 * [Day 18: Implement HashTable](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/HashTable.md)
 
