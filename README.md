@@ -21,5 +21,6 @@
 * [Day 17: Implement Quick Sort](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/QuickSort.md)
 * [Day 18: Implement HashTable](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/HashTable.md)
 * [Day 19: Find the first repeated word in a book](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/RepeatedWord.md)
+* [Day 20: Find common values in 2 binary trees](https://github.com/jjblues86/data-structures-and-algorithms-/blob/master/code401challenges/otherReadMes/TreeIntersection.md)
 
 
