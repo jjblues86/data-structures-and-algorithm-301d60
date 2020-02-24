@@ -2,10 +2,10 @@ package graph;
 
 public class Edge<T> {
     int weight;
-    T one;
-    T two;
+    Node<T> one;
+    Node<T> two;
 
-    public Edge(int weight, T one, T two) {
+    public Edge(int weight, Node<T> one, Node<T> two) {
         this.weight = weight;
         this.one = one;
         this.two = two;
@@ -15,11 +15,11 @@ public class Edge<T> {
         return weight;
     }
 
-    public T getOne() {
+    public Node<T> getOne() {
         return one;
     }
 
-    public T getTwo() {
+    public Node<T> getTwo() {
         return two;
     }
 }
