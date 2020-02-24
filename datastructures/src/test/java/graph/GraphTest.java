@@ -1,3 +1,5 @@
+package graph;
+
 import static org.junit.Assert.*;
 
 import graph.Graph;
