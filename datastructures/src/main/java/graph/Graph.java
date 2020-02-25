@@ -1,9 +1,6 @@
 package graph;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Graph<T> {
     private Map<Node, Set< Node<T>>> vertices;
@@ -56,5 +53,37 @@ public class Graph<T> {
     public int size(){
        return this.vertices.size();
     }
+
+    //BreadthFirstSearch
+    List<Node> bfs(Node node){
+        Set<Node> visited = new HashSet<>();
+        List<Node> breadthFS = new ArrayList<>();
+        //BFS queue
+        Queue<Node> queue = new LinkedList<>();
+        if(node == null){
+            throw new IllegalArgumentException("Graph is Empty");
+        }
+        if(!vertices.containsKey(node)){
+            throw new IllegalArgumentException("Node not found");
+        }
+        visited.add(node);
+        queue.add(node);
+        breadthFS.add(node);
+
+        while(queue.size() != 0){
+            //remove from queue if it was not visited, add to the queue set
+            node = queue.remove();
+            if(!visited.contains(node)){
+                breadthFS.add(node);
+            }
+            visited.add(node);
+            vertices.get(node).forEach(neighbor -> {
+                if(!visited.contains(neighbor)) queue.add(neighbor);
+            });
+        }
+        return breadthFS;
+    }
+
+
 
 }
