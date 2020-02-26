@@ -84,6 +84,18 @@ public class Graph<T> {
         return breadthFS;
     }
 
-
-
+    //Find Edges
+    public static HashMap<Boolean, Integer> getEdge(Graph graph, String[] cities){
+        HashMap<Boolean, Integer> output = new HashMap<>();
+        int tripCost = 0;
+        boolean outcome = false;
+        Node current;
+        for(Object city : graph.vertices){
+            if(cities[0].equals(city)){
+                current = (Node) city;
+            }
+        }
+        output.put(outcome, tripCost);
+        return output;
+    }
 }
