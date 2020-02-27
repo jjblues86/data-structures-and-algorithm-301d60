@@ -61,7 +61,26 @@ public class GraphTest {
         assertTrue(testGraph.getNeighbors(bfs2).contains(bfs1));
         assertTrue(testGraph.getNeighbors(bfs3).contains(bfs4));
 
+    }
+    @Test
+    public void testDFS(){
+        start();
 
+        Node bfs1 = testGraph.addNode(25);
+        Node bfs2 = testGraph.addNode(30);
+        Node bfs3 = testGraph.addNode(35);
+        Node bfs4 = testGraph.addNode(40);
+        Node bfs5 = testGraph.addNode(45);
 
+        testGraph.addNode(6);
+        testGraph.addNode(7);
+        testGraph.addNode(8);
+        testGraph.addNode(9);
+        testGraph.addNode(10);
+
+        List<Node> bfs = testGraph.depthFirstSearch(bfs2);
+
+        assertTrue(testGraph.getNeighbors(bfs2).contains(bfs1));
+        assertEquals(1, bfs.size());
     }
 }

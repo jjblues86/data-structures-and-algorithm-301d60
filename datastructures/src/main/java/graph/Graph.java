@@ -85,17 +85,50 @@ public class Graph<T> {
     }
 
     //Find Edges
-    public static HashMap<Boolean, Integer> getEdge(Graph graph, String[] cities){
+    public HashMap<Boolean, Integer> getEdge(Graph graph, Node[] cities){
         HashMap<Boolean, Integer> output = new HashMap<>();
         int tripCost = 0;
         boolean outcome = false;
         Node current;
-        for(Object city : graph.vertices){
-            if(cities[0].equals(city)){
-                current = (Node) city;
+        for(int i = 0; i < cities.length; i++){
+            if(vertices.get(cities[i]).contains(cities[i+1])){
+
             }
+      /*  for(String city : cities){
+            if(cities[0].equals(city)){
+                current = city;
+            }*/
         }
         output.put(outcome, tripCost);
         return output;
+    }
+
+    //Depth First Traversal
+    List<Node> depthFirstSearch(Node node){
+        Set<Node> seen = new HashSet<>();
+        List<Node> breadthFirstSearch = new ArrayList<>();
+        Stack<Node> stack = new Stack<>();
+        if(node == null){
+            throw new IllegalArgumentException("Input is null");
+        }
+        if(!vertices.containsKey(node)){
+            throw new IllegalArgumentException("Input is wrong");
+        }
+        seen.add(node);
+        stack.add(node);
+        breadthFirstSearch.add(node);
+
+        while(stack.size() != 0){
+            node = stack.pop();
+
+            if(!seen.contains(node)){
+                breadthFirstSearch.add(node);
+            }
+            seen.add(node);
+            vertices.get(node).forEach(neighbor -> {
+                if(!seen.contains(neighbor)) stack.add(neighbor);
+            });
+        }
+        return breadthFirstSearch;
     }
 }
